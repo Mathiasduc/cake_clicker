@@ -23,7 +23,3 @@ function togglePanda(opened){
 setTimeout(function(){
 	togglePanda(window.devtools.open);
 },2000);
-
-window.addEventListener('devtoolschange', function (e) {
-	togglePanda(e.detail.open)
-});
