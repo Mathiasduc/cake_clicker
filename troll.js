@@ -20,6 +20,4 @@ function togglePanda(opened){
 	}
 }
 
-setTimeout(function(){
-	togglePanda(window.devtools.open);
-},2000);
+
